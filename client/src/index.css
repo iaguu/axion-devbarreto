@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'Space Grotesk', sans-serif;
+  --font-mono: 'Fira Code', monospace;
+
+  /* Dark Neon Theme */
+  --background: 240 10% 4%;      /* Very dark gunmetal/black */
+  --foreground: 0 0% 98%;        /* White text */
+  
+  --primary: 262 80% 50%;        /* Vivid Purple */
+  --primary-foreground: 210 40% 98%;
+  
+  --secondary: 180 100% 50%;     /* Cyan Neon */
+  --secondary-foreground: 240 10% 4%;
+  
+  --muted: 240 6% 10%;
+  --muted-foreground: 240 5% 65%;
+  
+  --accent: 320 100% 50%;        /* Hot Pink Neon */
+  --accent-foreground: 210 40% 98%;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+  
+  --border: 240 6% 20%;
+  --input: 240 6% 20%;
+  --ring: 262 80% 50%;
+  
+  --card: 240 10% 6%;
+  --card-foreground: 0 0% 98%;
+
+  --radius: 0.5rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary/30 selection:text-white;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+
+  code, pre {
+    font-family: var(--font-mono);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-secondary via-primary to-accent;
+  }
+  
+  .glass-panel {
+    @apply bg-card/60 backdrop-blur-md border border-white/10;
+  }
+  
+  .neon-glow {
+    text-shadow: 0 0 10px rgba(var(--primary), 0.5);
+  }
+  
+  .neon-box {
+    box-shadow: 0 0 20px -5px rgba(var(--primary), 0.3);
+  }
+}
