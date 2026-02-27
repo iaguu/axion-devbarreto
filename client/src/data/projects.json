@@ -1,47 +1,56 @@
-[
+﻿[
   {
     "id": 1,
     "title": "AXION PAY",
-    "description": "Plataforma de pagamentos de alto desempenho com suporte a múltiplos gateways, monitoramento de transações em tempo real e segurança avançada.",
-    "imageUrl": "/assets/axion-pay-main.png",
-    "techStack": ["Node.js", "TypeScript", "React", "PostgreSQL", "Tailwind CSS"],
-    "demoUrl": "https://axion-pay.netlify.app",
-    "githubUrl": "https://github.com/iaguu/axion-pay"
+    "description": "Gateway com UX premium, checkout otimizado e monitoramento operacional em tempo real para Pix e Cartao.",
+    "imageUrl": "/assets/axion-pay-prod.png",
+    "techStack": ["Node.js", "React", "Vite", "Motion Design", "Analytics"],
+    "demoUrl": "https://pay.axionenterprise.cloud",
+    "githubUrl": "https://github.com/iaguu/SANDBOX"
   },
   {
     "id": 2,
     "title": "AXION IA PANEL",
-    "description": "Painel administrativo para gestão de agentes de IA, automação de fluxos de trabalho e monitoramento de métricas de inteligência artificial.",
-    "imageUrl": "/assets/axion-ia-panel.png",
-    "techStack": ["React", "Vite", "OpenAI", "Tailwind CSS", "Framer Motion"],
-    "demoUrl": "https://axion-ia-panel.netlify.app",
-    "githubUrl": "https://github.com/iaguu/axion-ia-panel"
+    "description": "Centro de controle para copilotos, prompts e saude operacional de IA com fluxo completo de administracao.",
+    "imageUrl": "/assets/axion-ai-prod.png",
+    "techStack": ["React", "TypeScript", "Framer Motion", "Express", "Control Plane"],
+    "demoUrl": "https://ai.axionenterprise.cloud",
+    "githubUrl": "https://github.com/iaguu/SANDBOX"
   },
   {
     "id": 3,
-    "title": "ANNE & TOM",
-    "description": "Uma experiência digital personalizada e íntima, integrando sistemas de mensagens, galeria de memórias e automação residencial.",
-    "imageUrl": "/assets/anne-tom.png",
-    "techStack": ["React", "Express", "Node.js", "PostgreSQL", "Lottie"],
-    "demoUrl": "https://anne-tom.netlify.app",
-    "githubUrl": "https://github.com/iaguu/anne-tom"
+    "title": "AXION FLOW",
+    "description": "Plataforma de growth orientada por IA com estrutura de campanha, copy, automacao e governanca de funil.",
+    "imageUrl": "/assets/axion-flow-prod.png",
+    "techStack": ["React", "Vite", "Framer Motion", "Express", "CRM Automation"],
+    "demoUrl": "https://flow.axionenterprise.cloud",
+    "githubUrl": "https://github.com/iaguu/SANDBOX"
   },
   {
     "id": 4,
-    "title": "AXION IDE",
-    "description": "Editor de código online potente e leve, projetado para desenvolvedores que precisam de agilidade e integração total com o ecossistema AXION.",
-    "imageUrl": "/assets/axion-ide.png",
-    "techStack": ["React", "Monaco Editor", "Vite", "Tailwind CSS"],
-    "demoUrl": "https://axion-ide.netlify.app",
-    "githubUrl": "https://github.com/iaguu/axion-ide"
+    "title": "AXION DATA",
+    "description": "Landing e area de produto para intelligence data API, com rotas separadas, copy comercial e acesso administrativo.",
+    "imageUrl": "/assets/axion-data-prod.png",
+    "techStack": ["Express", "Static Landing", "Motion CSS", "Auth", "API Health"],
+    "demoUrl": "https://data.axionenterprise.cloud",
+    "githubUrl": "https://github.com/iaguu/SANDBOX"
   },
   {
     "id": 5,
-    "title": "AXION MAIN API",
-    "description": "A espinha dorsal do ecossistema AXION, gerenciando autenticação, permissões e comunicação entre todos os serviços de forma escalável.",
+    "title": "AXION DEV",
+    "description": "Landing premium para squads de software com home, login e catalogo de produtos para download e operacao.",
     "imageUrl": "/assets/axion-pay-main.png",
-    "techStack": ["Node.js", "Express", "PostgreSQL", "Redis", "Docker"],
-    "demoUrl": "https://api.axionenterprise.cloud",
-    "githubUrl": "https://github.com/iaguu/axion-main-api"
+    "techStack": ["React", "Framer Motion", "Express", "Lead API", "SEO"],
+    "demoUrl": "https://dev.axionenterprise.cloud",
+    "githubUrl": "https://github.com/iaguu/SANDBOX"
+  },
+  {
+    "id": 6,
+    "title": "AXION PDV SYSTEM",
+    "description": "Sistema de PDV desktop com foco em velocidade operacional, fluxo de pedidos e padrao visual para loja real.",
+    "imageUrl": "/assets/anne-tom.png",
+    "techStack": ["Electron", "React", "Node.js", "Observabilidade", "UX Operacional"],
+    "demoUrl": "https://pdv.axionenterprise.cloud",
+    "githubUrl": "https://github.com/iaguu/SANDBOX"
   }
 ]
